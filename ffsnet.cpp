@@ -125,6 +125,7 @@ int * Transfer_init(UDTArray Ssocks, struct metadata * meta, int operation){
 					}
 				}
 			}
+			current=current->next;
 		}
 		
 		freeaddrinfo(peer);
